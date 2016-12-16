@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+
+
+        <TextView
+            android:id="@+id/lat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/zxing_custom_viewfinder_laser"
+            android:textSize="15sp"
+            android:text="Total  QR code added :"/>
+
+
+        <TextView
+            android:id="@+id/total_qr_codes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/lat"
+            android:layout_marginLeft="10dp"
+            android:text="gghghhghg"/>
+
+
+        <TextView
+            android:id="@+id/latest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/total_qr_codes"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/zxing_custom_viewfinder_laser"
+            android:textSize="15sp"
+            android:text="Latest QR code :"/>
+
+        <TextView
+            android:id="@+id/latestQRCodes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fhhbhbhfhbbh"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/total_qr_codes"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/latest"/>
+
+
+
+
+    </RelativeLayout>
+</ScrollView>

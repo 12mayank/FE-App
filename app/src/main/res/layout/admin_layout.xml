@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:weightSum="1"
+    android:background="#f0f0f0"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+   <LinearLayout
+       android:orientation="horizontal"
+       android:id="@+id/Linear1"
+       android:baselineAligned="false"
+       android:layout_weight="0.5"
+       android:background="#f0f0f0"
+       android:weightSum="1"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent">
+
+       <RelativeLayout
+           android:id="@+id/create_fe"
+          android:layout_weight="0.5"
+           android:layout_marginLeft="5dp"
+           android:layout_marginTop="5dp"
+           android:layout_marginBottom="3dp"
+           android:layout_marginRight="3dp"
+           android:background="@color/white"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+           <ImageView
+               android:id="@+id/immm1"
+               android:scaleType= "fitCenter"
+               android:layout_centerInParent="true"
+               android:layout_width="80dp"
+               android:layout_height="80dp"
+               android:src="@drawable/user2"/>
+
+           <TextView
+
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textSize="20sp"
+               android:layout_centerInParent="true"
+               android:layout_below="@+id/immm1"
+
+               android:text="Create FE"/>
+
+       </RelativeLayout>
+
+
+
+       <RelativeLayout
+           android:id="@+id/all_fe"
+           android:layout_weight="0.5"
+           android:background="@color/white"
+           android:layout_marginLeft="2dp"
+           android:layout_marginTop="5dp"
+           android:layout_marginBottom="3dp"
+           android:layout_marginRight="5dp"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+           <ImageView
+               android:id="@+id/immm2"
+               android:scaleType= "fitCenter"
+               android:layout_centerInParent="true"
+               android:layout_width="80dp"
+               android:layout_height="80dp"
+               android:src="@drawable/listfe"/>
+
+           <TextView
+
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textSize="20sp"
+               android:layout_centerInParent="true"
+               android:layout_below="@+id/immm2"
+
+               android:text="All FE"/>
+
+
+
+
+       </RelativeLayout>
+
+   </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:id="@+id/linear2"
+        android:layout_weight="0.5"
+        android:weightSum="1"
+        android:background="#f0f0f0"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:layout_below="@+id/Linear1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+
+            <RelativeLayout
+                android:id="@+id/offer_approval"
+                android:layout_weight="0.5"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="3dp"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+                    android:id="@+id/immm3"
+                    android:scaleType= "fitCenter"
+                    android:layout_centerInParent="true"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/approve"/>
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_centerInParent="true"
+                    android:layout_below="@+id/immm3"
+
+                    android:text="Approve Offers"/>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/send_sms"
+            android:layout_weight="0.5"
+            android:background="@color/white"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/immm4"
+                android:scaleType= "fitCenter"
+                android:layout_centerInParent="true"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/msg1"/>
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_centerInParent="true"
+                android:layout_below="@+id/immm4"
+
+                android:text="Send Message"/>
+
+
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

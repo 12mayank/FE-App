@@ -1,0 +1,72 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="jlabs.fepp.StarActivity">
+
+
+
+    <item
+        android:id="@+id/filer"
+        android:title="Filter"
+        android:icon="@drawable/filter2"
+        android:visible="true"
+        app:showAsAction="always">
+
+
+
+        <menu>
+
+            <group android:checkableBehavior="single">
+
+            <item android:id="@+id/In"
+
+                android:title="Available Offers"
+                app:showAsAction="ifRoom"/>
+
+            <item android:id="@+id/approve"
+                android:title="Approved Offers"
+                app:showAsAction="always"/>
+
+
+
+            <item android:id="@+id/not_approved"
+                android:title="Not Approved Offers"
+                app:showAsAction="always"/>
+
+            <item
+                android:id="@+id/out"
+                android:title="Sold Out Offers"
+                app:showAsAction="always"/>
+
+
+
+
+            <item
+                android:id="@+id/date"
+                android:title="Date"
+                app:showAsAction= "always" />
+
+            <item
+                android:id="@+id/store"
+                android:title="Store"
+                app:showAsAction= "always" />
+
+            <item
+                android:id="@+id/clear"
+                android:title="Clear Filter"
+                app:showAsAction="always" />
+
+
+            </group>
+
+        </menu>
+
+
+    </item>
+   
+</menu>
+
+
+
+
+

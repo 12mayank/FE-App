@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <color name="colorPrimary">#345E7C</color>
+    <color name="colorPrimaryDark">#254459</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="blue">#835fce</color>
+    <color name="orange">#f26522</color>
+    
+    <color name="dimgray">#FFFFFF</color>
+    <color name="BBB">#FFFFFF</color>
+    <color name="Black">#000000</color>
+    <color name="Slet">#778899</color>
+
+
+
+    <color name="gray">#aca7a7</color>
+    <color name="gray_light">#9efeffe3</color>
+    <color name="gray_very_light">#FF835FCE</color>
+    <color name="text_color">#7f7f7f</color>
+
+    <color name="btn_cancel_color">#999999</color>
+    <color name="btn_confirm_color">#303F9F</color>
+</resources>

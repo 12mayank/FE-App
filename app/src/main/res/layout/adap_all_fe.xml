@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginBottom="5dp"
+    android:background="@drawable/stroke" >
+
+<RelativeLayout
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/tt1"
+        android:text="FE_ID    :"
+        android:textSize="15dp"
+        android:paddingLeft="10dp"
+
+        android:textColor="#323232"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tt11"
+        android:text="012456"
+        android:textSize="15dp"
+        android:paddingLeft="10dp"
+        android:layout_toLeftOf="@+id/delete_fe"
+        android:textColor="#323232"
+        android:layout_toRightOf="@+id/tt1"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#323232"
+        android:text="Name   :"
+        android:textSize="15dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/tt11"/>
+
+    <TextView
+        android:id="@+id/tt22"
+        android:text="MAYANK SHARMA "
+        android:textSize="15dp"
+        android:textColor="#323232"
+        android:layout_toLeftOf="@+id/delete_fe"
+        android:paddingLeft="10dp"
+        android:layout_toRightOf="@+id/tt2"
+        android:layout_below="@+id/tt11"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/tt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#323232"
+        android:text="Contact:"
+        android:textSize="15dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/tt22"/>
+
+
+    <TextView
+        android:id="@+id/tt33"
+        android:text="09555558702"
+        android:textSize="15dp"
+        android:textColor="#323232"
+        android:paddingLeft="10dp"
+        android:layout_toRightOf="@+id/tt3"
+        android:layout_below="@+id/tt22"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/tt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#323232"
+        android:text="email     :"
+        android:textSize="15dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/tt33"/>
+
+    <TextView
+        android:id="@+id/tt44"
+        android:text="mayanknda12@gmail.com"
+        android:textSize="15dp"
+        android:paddingLeft="10dp"
+        android:textColor="#323232"
+        android:layout_toRightOf="@+id/tt4"
+        android:layout_below="@+id/tt33"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+    <TextView
+        android:id="@+id/tt5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add-By  :"
+        android:textSize="15dp"
+        android:paddingLeft="10dp"
+        android:textColor="#323232"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/tt44"/>
+
+    <TextView
+        android:id="@+id/tt55"
+        android:text="CMOP001"
+        android:textSize="15dp"
+        android:paddingLeft="10dp"
+        android:layout_toRightOf="@+id/tt5"
+        android:layout_below="@+id/tt44"
+        android:layout_marginTop="5dp"
+        android:textColor="#323232"
+        android:layout_marginLeft="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+    <TextView
+        android:id="@+id/tt6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Company_ID:"
+        android:textSize="15dp"
+        android:paddingLeft="10dp"
+        android:textColor="#323232"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/tt55"/>
+
+    <TextView
+        android:id="@+id/tt66"
+        android:text="CMOP001"
+        android:textSize="15dp"
+        android:paddingLeft="10dp"
+        android:textColor="#323232"
+        android:layout_toRightOf="@+id/tt6"
+        android:layout_below="@+id/tt55"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/delete_fe"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:paddingRight="10dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/d2"/>
+
+</RelativeLayout>
+
+
+ </FrameLayout>

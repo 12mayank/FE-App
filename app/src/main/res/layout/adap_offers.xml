@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginBottom="5dp"
+    android:background="@drawable/stroke"
+   >
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:background="@color/white"
+    android:id="@+id/offer_view">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:layout_alignParentLeft="true"
+        android:textColor="#666666"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:layout_toLeftOf="@+id/approved"
+        android:text="Coconut Hair Oil"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/approved"
+        android:paddingTop="10dp"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/text_color"
+        android:paddingRight="10dp"
+        android:layout_weight="0.5"
+
+        android:textSize="15dp"
+        android:text="Not Approved"/>
+
+
+    <TextView
+        android:id="@+id/points1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textColor="@color/text_color"
+        android:paddingLeft="10dp"
+        android:layout_below="@+id/title"
+        android:text="Cash Back :"/>
+
+    <TextView
+        android:id="@+id/points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textColor="@color/text_color"
+        android:layout_toRightOf="@+id/points1"
+        android:paddingLeft="10dp"
+        android:layout_below="@+id/title"
+        android:text="100"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/soldout"
+                android:textColor="#2E8B57"
+                android:layout_alignParentRight="true"
+                android:paddingRight="10dp"
+                android:textSize="15dp"
+                android:text="Sold out"
+                android:layout_below="@+id/title"
+
+               />
+
+        <TextView
+            android:id="@+id/store_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_color"
+            android:layout_below="@+id/points1"
+            android:text="Store Name :"
+            android:textSize="15dp"
+            android:paddingLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/name_of_store"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_color"
+        android:text=""
+        android:layout_below="@+id/points"
+        android:layout_toRightOf="@+id/store_name"
+        android:paddingLeft="10dp"
+        android:textSize="15dp"/>
+
+
+    <TextView
+        android:id="@+id/remaining"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name_of_store"
+        android:textColor="@color/text_color"
+        android:text="Remaining :"
+        android:textSize="15dp"
+        android:paddingLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/remaining_offers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_color"
+        android:layout_below="@+id/name_of_store"
+        android:layout_toRightOf="@+id/remaining"
+        android:paddingLeft="10dp"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/weight1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:textColor="@color/text_color"
+        android:layout_below="@+id/remaining_offers"
+        android:text="Date Of Manufacturing :"/>
+    <TextView
+        android:id="@+id/weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:paddingLeft="10dp"
+        android:layout_below="@+id/remaining_offers"
+        android:textColor="@color/text_color"
+        android:layout_toRightOf="@+id/weight1"
+        android:text="07/08/2016"/>
+
+
+    <ImageView
+        android:id="@+id/deleteimg"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/name_of_store"
+        android:layout_alignParentRight="true"
+        android:paddingRight="10dp"
+        android:src="@drawable/d2"/>
+
+
+
+    <TextView
+        android:id="@+id/approve_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:visibility="gone"
+        android:textSize="18sp"
+        android:background="@color/colorPrimaryDark"
+        android:padding="15dp"
+        android:text="Approve Offer"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:visibility="visible"
+        android:layout_below="@+id/weight"
+        android:id="@+id/new_offer"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/patchx"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/patch"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="Locally_Created"
+            />
+    </LinearLayout>
+    </RelativeLayout>
+
+</FrameLayout>
+
